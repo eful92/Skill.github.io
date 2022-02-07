@@ -39,7 +39,7 @@ export default function PortfolioDetail({ data }) {
           <svg className="w-5 h-5 text-gray-400 mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
           </svg>
-          See All Project
+          Skripsi 2021
         </Button>
       </Fade>
 
@@ -63,7 +63,7 @@ export default function PortfolioDetail({ data }) {
                     <Fade bottom delay={300 * 1}>
                       <div className="flex flex-col mt-16 mb-12 mx-8 sm:mx-16 xl:mx-28">
                         <h1 className="text-3xl text-theme-blue font-bold mb-3">
-                          Project Detail
+                          Skripsi Detail
                         </h1>
 
                         <p className="font-light text-lg text-gray-400 text-justify">
@@ -91,7 +91,7 @@ export default function PortfolioDetail({ data }) {
                         * This project is just example.
                         {' '}
                         <br />
-                        Original project :
+                        Original 2022 :
                         {' '}
                         <Button type="link" href={item.credit} target="_blank" className="text-theme-purple" isExternal>{item.credit}</Button>
                       </p>
