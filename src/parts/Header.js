@@ -94,7 +94,7 @@ export default function Header(props) {
                 type="link"
                 href="/team"
               >
-                Team
+                Galeri
               </Button>
             </li>
             <li className="py-2 bg-white">
@@ -103,7 +103,7 @@ export default function Header(props) {
                 type="link"
                 href="/project"
               >
-                Project
+                Bahan Skripsi
               </Button>
             </li>
             <li className="mx-auto my-9 bg-white">
